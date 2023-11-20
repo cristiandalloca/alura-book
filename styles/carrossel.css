@@ -22,6 +22,14 @@
     margin: 0.5em 0;
 }
 
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5em;
+    gap: 1em;
+    align-items: center;
+}
+
 .card {
     margin: 1em;
     padding: 1em;
@@ -30,10 +38,8 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.card__descricao {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: .5em;
+.card__imagem {
+    max-width: 50%;
 }
 
 .descricao__titulo {
